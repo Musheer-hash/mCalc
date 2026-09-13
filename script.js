@@ -53,7 +53,7 @@ calculate.addEventListener("click", function () {
   }
   try {
     const value = evaluateExpression(display.value);
-    if (String(value).length > 17 || !isFinite(value)) {
+    if (String(value).length > 16 || !isFinite(value)) {
       result.value = "Error";
     } else {
       answer = value;
