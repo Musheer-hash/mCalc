@@ -26,7 +26,7 @@
   width: 100%;
   background: #d4e2e3;
   border: none;
-  font-size: 14px;
+  font-size: 20px;
   padding-right: 10px;
   color: #000000;
   text-align: right;
@@ -46,6 +46,7 @@
   left: 0;
   color: #000000;
   border-top: 0.1px solid #333;
+  font-size: 35px;
 }
 
 .buttons {
