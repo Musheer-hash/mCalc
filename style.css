@@ -50,7 +50,8 @@
 .buttons {
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  gap: 10px;
+  column-gap: 10px;
+  row-gap: 25px;
   margin-top: 450px;
   margin-bottom: 10px;
 }
@@ -58,8 +59,8 @@
 button {
   background: #333333;
   color: white;
-  width: 38px;
-  height: 30px;
+  width: 70px;
+  height: 50px;
   border-radius: 10px;
   /* border: none; */
   /* font-size: 18px; */
