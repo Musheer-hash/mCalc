@@ -67,12 +67,19 @@ button {
   border: none;
 }
 
+.main-btn {
+  background: #fe9500;
+  color: white;
+}
 .top-row {
   background: #a6a6a6;
   color: #000;
+  font-size: 30px;
 }
 
 .side-row {
-  background: #fe9500;
-  color: white;
+  /* background: #fe9500; */
+  background: #a6a6a6;
+  color: #000000;
+  font-size: 40px;
 }
