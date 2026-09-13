@@ -70,7 +70,7 @@ backspace.addEventListener("click", function () {
 });
 
 ans.addEventListener("click", function () {
-  display.value += "Ans";
+  display.value = "Ans";
 });
 
 // Operations
