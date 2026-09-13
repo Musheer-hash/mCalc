@@ -26,7 +26,7 @@
   width: 100%;
   background: #d4e2e3;
   border: none;
-  font-size: 20px;
+  font-size: 14px;
   padding-right: 10px;
   color: #000000;
   text-align: right;
@@ -38,6 +38,7 @@
   width: 100%;
   background: #d4e2e3;
   border: none;
+  font-size: 24px;
   padding-right: 10px;
   text-align: right;
   position: absolute;
@@ -45,12 +46,11 @@
   left: 0;
   color: #000000;
   border-top: 0.1px solid #333;
-  font-size: 35px;
 }
 
 .buttons {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(4,1fr);
   column-gap: 10px;
   row-gap: 15px;
   margin-top: 215px;
@@ -63,6 +63,8 @@ button {
   width: 60px;
   height: 45px;
   border-radius: 10px;
+  font-size: 25px;
+  border: none;
 }
 
 .top-row {
