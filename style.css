@@ -7,8 +7,9 @@
   background-color: black;
   margin-inline: auto;
   padding: 15px;
-  max-width: 420px;
   border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .screen {
@@ -62,8 +63,6 @@ button {
   width: 70px;
   height: 50px;
   border-radius: 10px;
-  /* border: none; */
-  /* font-size: 18px; */
 }
 
 .top-row {
@@ -74,5 +73,4 @@ button {
 .side-row {
   background: #fe9500;
   color: white;
-  /* font-size: 24px; */
 }
